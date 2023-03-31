@@ -33,6 +33,14 @@ header{
     width: 258px;
     height: 92px;
     background-color: rgb(119,119,119);
+    justify-content: center;
+
+}
+
+#powrót{
+
+    font-family: Arial;
+    align-self: center;
 
 }
 
@@ -83,6 +91,8 @@ ul{
     justify-content: center;
     padding-left: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    
     
 }
 
@@ -94,6 +104,11 @@ ul{
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    text-align: left;
+    
 
 }
 
@@ -107,7 +122,6 @@ h2{
 p{
 
     font-size: 20px;
-    text-align: left;
     flex-basis: 100%;
 
 }
@@ -130,5 +144,6 @@ footer{
     font-style: oblique;
     align-self: center;
     text-align: center;
+    font-size: 20px;
     
 }
