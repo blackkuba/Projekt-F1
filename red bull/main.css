@@ -15,13 +15,7 @@ body{
 header{
 
     display: flex;
-
-}
-
-#header_box{
-
-    display: flex;
-    width: 86.5%;
+    width: 100%;
     height: 92px;
     background-color: rgb(217,217,217);
 
@@ -77,6 +71,14 @@ ul{
     justify-content: space-around; 
     padding-right: 40px;
     padding-top: 20px;
+    
+
+}
+
+a, a:visited {
+
+    text-decoration: none;
+    color: black;
 
 }
 
