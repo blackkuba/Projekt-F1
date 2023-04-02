@@ -9,6 +9,8 @@
 body{
 
     background-color: rgb(1,22,41);
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -24,7 +26,7 @@ header{
 #Kuba_Stopa{
 
     display: flex;
-    width: 258px;
+    flex-basis: 13.5%;
     height: 92px;
     background-color: rgb(119,119,119);
     justify-content: center;
@@ -63,11 +65,101 @@ header{
 
 }
 
+main{
+
+    display: flex;
+    flex-basis: 86.5%;
+    flex-wrap: wrap;
+
+}
+
+main > article{
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    height: 300px;
+    align-items: center;
+
+}
+
+.art1{
+
+    flex-basis: 30%;
+
+}
+
+.zd1{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.art2{
+
+    flex-basis: 70%;
+
+}
+
+.art3{
+
+    flex-basis: 70%;
+
+}
+
+.art4{
+
+    flex-basis: 30%;
+
+}
+
+.zd2{
+
+    height: 100%;
+    width: 50%;
+
+}
+
+.zd3{
+
+    height: 100%;
+    width: 50%;
+
+}
+
+.art5{
+
+    flex-basis: 30%;
+
+}
+
+.zd4{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.art6{
+
+    flex-basis: 70%;
+
+}
+
+main > article > p{
+
+    font-size: 25px;
+    color: white;
+    text-align: center;
+
+}
+
 aside{
 
     display: flex;
-    width: 258px;
-    height: 862px;
+    flex-basis: 13.5%;
+    height: auto;
     background-color: rgb(217,217,217);
     justify-content: center;
     flex-wrap: wrap;
