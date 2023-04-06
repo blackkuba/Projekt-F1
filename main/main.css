@@ -97,8 +97,15 @@ main > article{
 .art1{
 
     flex-basis: 10%;
+    background-color: rgb(78,98,109);
     
-    
+}
+
+.zd1{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
 
 }
 
@@ -106,7 +113,6 @@ main > article{
 
     flex-basis: 50%;
     
-
 }
 
 .art3{
@@ -118,12 +124,30 @@ main > article{
 .art4{
 
     flex-basis: 10%;
+    background-color: rgb(78,98,109);
+
+}
+
+.zd2{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 15px; 
 
 }
 
 .art5{
 
     flex-basis: 10%;
+    background-color: rgb(78,98,109);
+
+}
+
+.zd3{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
 
 }
 
