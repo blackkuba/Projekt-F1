@@ -71,7 +71,11 @@ main{
     flex-basis: 86.5%;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-around;
+    align-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
 
 }
 
@@ -84,6 +88,8 @@ main > article{
     background-color: rgb(217,217,217);
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 80px;
+    margin-right: 80px;
     
 
 }
@@ -91,6 +97,7 @@ main > article{
 .art1{
 
     flex-basis: 10%;
+    
     
 
 }
