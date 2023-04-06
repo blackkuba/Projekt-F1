@@ -77,20 +77,22 @@ main > article{
 
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
+    height: 187px;
     align-items: center;
+    background-color: rgb(217,217,217);
+    
 
 }
 
 .art1{
 
-    flex-basis: 30%;
+    flex-basis: 10%;
 
 }
 
 .art2{
 
-    flex-basis: 70%;
+    flex-basis: 50%;
 
 }
 
@@ -130,7 +132,7 @@ aside{
 
     display: flex;
     flex-basis: 13.5%;
-    height: auto;
+    height: 900px;
     background-color: rgb(217,217,217);
     justify-content: center;
     flex-wrap: wrap;
