@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankieta</title>
+    <title>Wspracie</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -17,7 +17,7 @@
             </div>
         </div>
         <ul id="header_boxy">
-            <li><p id="info">Ankieta</p></li>
+            <li><p id="info">Wsparcie</p></li>
             <li><a href="https://www.redbull.com/pl-pl/tags/f1" target="_blank">Red Bull</a></li>
             <li><a href="https://www.mercedesamgf1.com/" target="_blank">Mercedes</a></li>
             <li><a href="https://www.ferrari.com/en-EN/formula1" target="_blank">Ferrari</a></li>
@@ -39,22 +39,111 @@
 
         <article id="art1">
             <h2>Zwycięstwa</h2>
-            <p>WC: 16</p>
-            <p>Podium: 772</p>
-            <p>Wygrane GP: 238</p>
-            <p>Budżet: 450 mln</p>
+            <p>WC: 11</p>
+            <p>Podium: 387</p>
+            <p>Wygrane GP: 170</p>
         </article>
 
         <article id="art2">
             <h2>Ciekawostki</h2>
             <p>
+                lubie verstappena
             </p>
         </article>
 
     </aside>
 
     <main>
-        
+        <form>
+
+            <div>
+                <label for="fname">Imię:</label>
+                <input type="text" id="fname" name="fname" placeholder="Jan" required>
+            </div>
+    
+            <br>
+    
+            <div>
+                <label for="lname">nazwisko:</label>
+                <input type="text" id="lname" name="lname" placeholder="Kowalski" required>
+            </div>
+    
+            <br>
+    
+            <div>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" placeholder="Ciuciek@gmail.com">
+            </div>
+    
+            <br>
+    
+            <div>
+                <label for="phone">telefon:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+48 000-000-000">
+            </div>
+    
+            <br>
+    
+            <div>
+                <label for="bdate">birthdate:</label>
+                <input type="date" id="bdate" name="bdate">
+            </div>
+            
+            <br>
+    
+            <div>
+                <label for="quantity">ilość:</label>
+                <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+            </div>
+            
+            <br>
+    
+            <div class="sex">
+                <label for="sex">Płeć:</label>
+    
+                <label for="Facet">Facet</label>
+                <input type="radio" id="Mr." name="title" value="Mr.">
+    
+                <label for="Baba">Baba</label>
+                <input type="radio" id="Mrs." name="title" value="Mrs.">
+            </div>
+            
+            <br>
+    
+            <div>
+                <label for="payment">payment:</label>
+                <select id="payment" name="payment">
+                    <option value="visa">visa</option>
+                    <option value="mastercard">mastercard</option>
+                    <option value="organs">organs</option>
+                </select>
+            </div>
+            
+            <br>
+    
+            <div>
+                <label for="subscribe">subskrypcja:</label>
+                <input type="checkbox" id="subscribe" name="subscribe" min="0" max="99" value="1">
+            </div>
+            
+            <br>
+    
+            <div>
+                <input type="reset">
+            </div>
+    
+            <br>
+    
+            <div>
+                <input type="submit">
+            </div>
+    
+        </form> 
+
+        <div class="help">
+            <h2>Twórca</h2>
+            <img class="team" src="creator.jpg" alt="twórca">
+        </div>
     </main>
 
     <footer>

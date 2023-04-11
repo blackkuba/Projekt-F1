@@ -14,6 +14,69 @@ body{
 
 }
 
+form{
+
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    height: 80%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+main{
+
+    display: flex;
+    flex-basis: 80%;
+    align-items: center;
+    padding-left: 80px;
+
+}
+
+form > div{
+
+    display: flex;
+    flex-basis: 70%;
+    align-items: center;
+
+}
+
+form > div > *{
+
+    display: flex;
+    margin: 10px;
+
+}
+
+.help{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+main > .help > h2 {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.team{
+
+width: 70%;
+border-radius: 30px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
 header{
 
     display: flex;
@@ -149,8 +212,8 @@ li{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 30px;
-    text-align: left;
+    text-align: center;
+    font-weight: bold;
     
 
 }
