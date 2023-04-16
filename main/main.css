@@ -83,14 +83,13 @@ main > article{
 
     display: flex;
     flex-wrap: wrap;
-    height: 187px;
+    height: auto;
     align-items: center;
     background-color: rgb(217,217,217);
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: 80px;
     margin-right: 80px;
-    
 
 }
 
@@ -112,12 +111,14 @@ main > article{
 .art2{
 
     flex-basis: 60%;
+    padding: 1rem;
     
 }
 
 .art3{
 
     flex-basis: 60%;
+    padding: 1rem;
 
 }
 
@@ -154,6 +155,7 @@ main > article{
 .art6{
 
     flex-basis: 60%;
+    padding: 1rem;
 
 }
 
@@ -161,7 +163,8 @@ main > article > p{
 
     font-size: 25px;
     color: black;
-    text-align: center;
+    text-align: left;
+    font-family: Arial;
 
 }
 
@@ -292,6 +295,7 @@ table {
     margin-bottom: 40px;
     border-collapse: collapse;
     border-style: hidden;
+    font-family: Arial;
 
 }
 

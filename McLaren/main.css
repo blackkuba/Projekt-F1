@@ -78,9 +78,8 @@ main > article{
     display: flex;
     flex-wrap: wrap;
     border: 5px solid black;
-    height: 300px;
+    height: auto;
     align-items: center;
-    padding: 1rem;
 
 }
 
@@ -100,12 +99,14 @@ main > article{
 .art2{
 
     flex-basis: 70%;
+    padding: 1rem;
 
 }
 
 .art3{
 
     flex-basis: 65%;
+    padding: 1rem;
 
 }
 
@@ -145,6 +146,7 @@ main > article{
 .art6{
 
     flex-basis: 70%;
+    padding: 1rem;
 
 }
 
@@ -152,7 +154,8 @@ main > article > p{
 
     font-size: 25px;
     color: black;
-    text-align: center;
+    text-align: left;
+    font-family: Arial;
 
 }
 
